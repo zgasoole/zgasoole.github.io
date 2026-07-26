@@ -203,8 +203,8 @@ h1 {
 .map-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 24px;
-  max-width: 940px;
+  gap: 22px;
+  max-width: 860px;
   margin-inline: auto;
   border-top: 1px solid var(--ink);
   padding-top: 17px;
@@ -215,8 +215,9 @@ h1 {
   aspect-ratio: 1 / 1;
   display: block;
   object-fit: contain;
-  background: #ebe9e3;
+  background: #f8f7f3;
   border: 1px solid var(--line);
+  filter: contrast(1.14) saturate(1.08);
 }
 .map-card figcaption { padding-top: 10px; }
 .map-card h2 { margin: 0 0 5px; font-size: 1.02rem; font-weight: 400; }
