@@ -1,45 +1,23 @@
 # Zhang Yi — Academic Homepage
 
-This repository contains the source files for a restrained bilingual academic homepage.
+A restrained bilingual academic homepage that functions as a public research navigation layer rather than a CV, employment history, or publication database.
 
-## Public site scope
+## Public structure
 
-The site is designed as a research navigation page rather than a complete curriculum vitae or publication database. It currently includes:
+- Home: research identity, three research lines, and one representative entry per line.
+- Inclusive Educational Environments: established work, applied outputs, and clearly labelled developing agendas.
+- Place-based Spatial Transformation: selected themes and current governance-related extensions.
+- Spatial Evidence and Decision Methods: the Guangzhou project, selected maps, methods, and evidence boundaries.
+- English and Chinese versions are maintained in parallel.
 
-- a concise research identity;
-- a three-stage research trajectory;
-- selected evidence from the Guangzhou hot-humid active-health project;
-- ORCID, Google Scholar, LinkedIn, and current-project links;
-- separate English and Chinese pages.
+## Privacy boundary
 
-The site intentionally does not publish a CV, private contact details, application materials, internal work records, or a complete employment history.
+The site does not publish a CV, private contact details, application materials, internal project records, unpublished datasets, or personal career plans. External links are limited to public academic profiles and a public project repository.
 
-## Structure
+## Archive
 
-```text
-.
-├── index.html
-├── zh/
-│   └── index.html
-├── assets/
-│   ├── css/
-│   │   └── site.css
-│   └── images/
-│       ├── active-health-poi.jpg
-│       ├── green-activity-space.jpg
-│       └── walking-network.jpg
-├── .nojekyll
-└── README.md
-```
+The previous homepage is preserved in the branch `archive/home-v1-20260726`.
 
-The site uses plain HTML and CSS with no framework, build dependency, analytics, external font service, or content-management system.
+## Technical structure
 
-## Research organisation
-
-The homepage reorganises the public research record through three connected scales:
-
-1. inclusive educational environments — building and user;
-2. place-based spatial transformation — place and district;
-3. evidence-informed spatial transformation — city and governance.
-
-Detailed project materials remain in their respective repositories or external academic records.
+Plain HTML and CSS only. No analytics, JavaScript, external font service, cookie, or content-management system.
